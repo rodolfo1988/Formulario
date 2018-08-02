@@ -1,0 +1,239 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.principal{
+    margin: 20px auto;
+    width: 1100px;
+}
+
+.header_top{
+    height: 70px;
+    background: #162028;
+}
+    
+.logotipo{
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 900px;
+    margin-bottom: 0px;
+    height: 50px;
+    width 100px;
+}
+
+.header_nav{
+    position: absolute;
+    top: 30px;
+    height: 30px
+}
+
+.header_nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px 0 0;
+}
+
+.header_nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 4px;
+    transition: color 0.3s linear;
+}
+
+.header_nav a:hover{
+    color: white;
+}
+
+.lista_cadastro_pessoas li{
+    position: relative;
+    display: inline-block;
+    margin: 0 25px 0 0;
+    background-color: #425564;
+    color: white;
+    padding: .75em;
+    border-radius: 5px;
+    font-size: .8em;
+    border: 2px solid gray;
+}
+
+.lista_cadastro_pessoas a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 4px;
+    transition: color 0.3s linear;
+    text-align: center;
+}
+
+.rodolfo{
+    margin: 10px 0 10px 40px
+}
+
+.botao_enviar{
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    background-color: #425564;
+    border: 2px solid gray;
+    color: white;
+    padding: .75em;
+    border-radius: 5px;
+    font-size: .8em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0px 10px 0 350px;
+}
+
+.botao_enviar_limpar{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #425564;
+    border: 2px solid gray;
+    color: white;
+    padding: .75em;
+    border-radius: 5px;
+    font-size: .8em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.tabela{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    margin: 0 0 2em 0;
+    border-collapse: collapse;
+}
+
+.tabela td{
+    padding: .75em;
+    text-align: center;
+}
+
+.tabela th{
+    background: #ccc;
+    padding: .75em;
+}
+
+.tabela tbody tr:first-child td{
+    border-top: 2px solid #425564;
+}
+
+.tabela tbody tr:last-child td{
+    border-bottom: 2px solid #425564;
+}
+
+.tabela tbody tr td{
+    border-bottom: 1px solid #425564;
+}
+
+.tabela tbody tr:nth-child(2) td{
+    background: #ccc;
+}
+
+.vendedor{
+    overflow: auto;
+}
+
+.input, label, textarea, email{
+    display: inline-block;
+    width: 99%;
+    box-sizing: border-box;
+    margin: 5px 0 10px 10px;
+}
+
+.barra{
+    background: white;
+    padding: 10px 20px 10px 400px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 0 0 10px;
+}
+
+.barra_02{
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 0 0 10px;
+}
+
+
+.selecione_bola{
+    margin: 0px 0 20px 0;
+}
+
+.dados{
+    background-color: #425564;
+    border: 2px solid gray;
+    color: white;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.dados_01{
+    margin: 0 0 0 5px;
+}
+
+.porcentagem{
+    margin: 15px 0 0 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+.total{
+    margin: 15px 0 0 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.selecione_bola{
+    margin: 99;
+}
+
+.selecao{
+    margin: 10px 0 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.titulos_editar{
+    margin-top: 15px 15px 0 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+.venda{
+    margin-top: 15px 0 0 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+.fundo{
+    background-color: #d3d3d3;
+}

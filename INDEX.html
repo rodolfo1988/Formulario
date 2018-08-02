@@ -1,0 +1,121 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuário a versão do HTML que deve ser renderizada--> 
+<html lang="pt-br">
+    <head>
+        <title> Formulario do Vendedor </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Rodolfo">
+        <meta name="description" content="CRUD VENDEDOR">
+        <meta name="keywords" content="Criação, CRUD">
+        <link rel="stylesheet" href="CSS/CSS.css">
+    </head>
+        
+    <body class="principal">
+        <div>
+            <header class="header_top">
+                <img class="logotipo" src="imagens/logo.png" alt="logotipo_yes">
+                <nav class="header_nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Log out</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="lista_cadastro">
+                <section class=lista_cadastro_pessoas>
+                    <h1 class="rodolfo">Seja bem vindo Rodolfo Calça Cerutti</h1>
+                    <ul>
+                        <li><a href="#">Venda</a></li>
+                        <li><a href="#">Compra</a></li>
+                        <li><a href="#">troca</a></li>
+                        <li><a href="#">Novo Cliente</a></li>
+                    </ul>
+                    
+                </section>
+        
+                <section class="fundo">
+                    <form action="#" method="get" class="form">
+                        <fieldset>
+                            <section class="vendedor">
+                                <legend class="dados"><p class="dados_01">Dados do vendedor</p></legend>
+                            
+                                <label class="titulos_editar">Id do Vendedor</label>
+                                <input type="number" min="0" max="10" class="barra_02">
+                            
+                                <label class="titulos_editar">Nome do Vendedor</label>
+                                <input type="text" id="name" class="barra">
+                            
+                                <label class="titulos_editar">Email</label>
+                                <input type="email" class="barra">
+                            
+                                <p class="selecao">Selecione</p>
+                                    <label class="selecione_bola">
+                                        <input type="radio" name="opção" value="op1">Venda
+                                        <input type="radio" name="opção" value="op2">Compra
+                                        <input type="radio" name="opção" value="op3">Troca
+                                    </label>
+                            </section>
+                            <section class="comprador">
+                                
+                                <legend class="dados"><p class="dados_01">Cadastro do Comprador</p></legend>
+                            
+                                <label class="titulos_editar">Nome da loja</label>
+                                <input type="text" id="name" class="barra">
+                            
+                                <label class="titulos_editar">Nome do Comprador</label>
+                                <input type="text" id=name class="barra_02">
+                            
+                                <label class="titulos_editar">Id do Comprador</label>
+                                <input type="number" min="0" max="10" class="barra_02">
+                    
+                                <label class="venda">Valor da Venda</label>
+                                <input type="number" min="0" max="1000000" class="barra_02">
+                                
+                                <legenda class="porcentagem">Porcentagem da Comissão</legenda>
+                                <input type="number" min="0" max="4" class="barra_02">
+                                
+                                <legenda class="total">Valor Total</legenda>
+                                <input type="number" min="0" max="1000000" class="barra_02">
+                            </section>
+                            
+                            <section class="botoes">
+                                <p>
+                                    <a href="#" class="botao_enviar">Enviar Relatório por email</a>
+                                    <a href="#" class="botao_enviar_limpar">Limpar</a>
+                                </p>
+                            </section>
+
+                        </fieldset>
+                    </form>
+                </section>
+                        <section>
+                            <table class="tabela">
+                                <thead>
+                                    <th>Produto</th>
+                                    <th>Vendedor</th>
+                                    <th>Valor da venda</th>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td>Item 01</td>
+                                        <td>Rodolfo Cerutti</td>
+                                        <td>30.000,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item 02</td>
+                                        <td>Rodolfo Cerutti</td>
+                                        <td>20.000,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item 03</td>
+                                        <td>Rodolfo Cerutti</td>
+                                        <td>10.000,00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>        
+            </main>
+        </div>
+    </body>
+</html>
